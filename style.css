@@ -1,0 +1,340 @@
+header img{
+    position: relative;
+    left:100px;
+    width: 115px;
+}
+header{
+    height: 70px;
+    background-color: white;
+    margin-top: -5px;
+    margin-left: -15px;
+    width: 1600px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 8px 16px 0px black;
+}
+body{
+    background-color: black;
+    /* overflow-x: hidden; */
+    font-family: 'Bebas Neue', sans-serif;
+}
+.navbtn{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: -2px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 20px 20px 15px 20px;
+}
+nav{
+    margin-left: 980.5px;
+    margin-top: -50px;
+}
+.navbtn:hover{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+.categories{
+    display: inline;
+}
+.categories:hover .categories-cnt{
+    display: block;
+    
+}
+.categories-cnt{
+    background-color: white;
+    width: 200px;
+    box-shadow: 0px 0px 10px 0px black;
+    position: absolute;
+    left: 1058px;
+    display: none;
+    top: 70.5px;
+    
+}
+.categories-cnt a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+.categories-cnt a:hover{
+    background-color: rgb(210, 210, 210);
+}
+.categories:hover .cat{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+.main_img{
+    position: absolute;
+    left:670px;
+    top: 230px;
+    width: 750px;
+}
+.tagline h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 200px;
+    line-height: 5px;
+    letter-spacing: 26px;
+}
+.tagline p{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    letter-spacing: 9px;
+    margin-top: -40px;
+    margin-bottom: -25px;
+}
+.tagline{
+    margin-left: 80px;
+    margin-top: -29px;
+}
+.quote{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 240px;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    
+}
+#hero a{
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 2px;
+    left: 45%;
+    top: 740px;
+    
+}
+#hero a:hover{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+.product{
+    position: absolute;
+    width: 230px;
+    top: -240px;
+}
+.product:hover{
+    width: 233px;
+}
+.shoplist1{
+    margin-left: 90px;
+}
+.star{
+    position: relative;
+    top: 148px;
+    width: 70px;
+    left:180px;
+    
+}
+
+.shoplist1 div{
+    width: 270px;
+    height: 320px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+.shoplist1 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 260px;
+    left: 20px;
+    font-size: 22px;
+}
+.shoplist1 p{
+    color: white;
+    position: relative;
+    top: 235px;
+    left: 20px;
+    font-size: 22px;
+}
+#shop{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+#hero button{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    margin-left: 43.8%;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+.click{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#category{
+    color: white;
+    text-align: center;
+}
+
+#category h1{
+    padding-top: 50px;
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+#category h2{
+    padding-top: 50px;
+    font-size: 22px;
+    letter-spacing: 10px;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: 100;
+}
+.about{
+    background-color: white;
+    width: 100%;
+}
+
+.us{
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 36%;
+    
+}
+.us1{
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 36%;
+}
+.us2{
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 36%;
+}
+.marquee {
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    letter-spacing: 1.2px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.group1 {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.group2 {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+    transform: translateX(0%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+}
+
+.slide {
+    display: flex;
+}
+.blog{
+    color: white;
+    display: flex;
+    margin-left: 10%;
+}
+.blog h1{
+    letter-spacing: 5px;
+    font-size: 30px;
+    
+}
+.blog h3{
+    letter-spacing: 5px;
+    font-size: 25px;
+    
+}
+.blog img{
+    border-radius: 10px;
+    width: 450px;
+    height: 250px;
+    
+}
+.blog p{
+    
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact{
+    color: white;
+    background-color: white;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+form{
+    background-color: rgb(44, 44, 44);
+    width: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px  rgb(43, 43, 43);
+    margin-left: 33%;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+textarea{
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit{
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 40%;
+}
